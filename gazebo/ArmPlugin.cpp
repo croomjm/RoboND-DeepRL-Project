@@ -717,7 +717,7 @@ void ArmPlugin::OnUpdate(const common::UpdateInfo& updateInfo)
               		<< successfulGrabs << ","
               		<< (float) successfulGrabs / (float) totalRuns << ","
               		<< failedGrabs << ","
-              		<< (float) failedGrabs << ","
+              		<< (float) failedGrabs / (float) totalRuns << ","
               		<< armContacts << ","
               		<< (float) armContacts / (float) totalRuns << ","
               		<< gripperContacts << ","
