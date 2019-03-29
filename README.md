@@ -1,3 +1,4 @@
+Note: The README below summarizes the Uducity-provide software environment and project goals. My project submission report with with a more detailed explanation of my approach and results can be found [here](./project_submission/project_submission_report.pdf) (an academic style pdf writeup rather than a markdown readme was a project requirement). The goal of this project was to use a deep q-network (reinforcement learning neural network) to "teach" a simulated robot arm to grasp an object using only a simulated camera view of the scene. I selected various parameters including the reward function, function weights, degree of image downsampling, DQN and LSTM hyperparameters, and training and optimization settings to ultimate achieve the required grasping success rate with a randomized oject position.
 
 # Deep RL Arm Manipulation
 
